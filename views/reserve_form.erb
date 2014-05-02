@@ -1,0 +1,54 @@
+<html>
+	<head>
+    <title>Reserve</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<body>
+	<div class="header">
+		<div class="banner">
+			<h1 id="hotel">THE ROYAL COURT</h1>
+		</div>
+		<div class="navbar"><!--Modified from sample navbar.html uploaded in Moodle-->
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			</div>
+			<div class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+				<li><a href="main">Home</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href="rooms">Rooms</a></li>
+				<li><a href="reserve">Reserve</a></li>
+			  </ul>
+			</div>
+		  </div
+		</div>
+	</div>
+	<div class="contentreserve">
+		<form method="POST" action"/reserve">
+		<table>
+			<tr>
+			<td>Suite Type: <select name="suite">
+			  <option value="Clover">Clover</option>
+			  <option value="Spades">Spades</option>
+			  <option value="Hearts">Hearts</option>
+			  <option value="Diamonds">Diamonds</option>
+			</select></td>
+			<td>Date: <input type="date" name="date"></td>
+			
+			</tr>
+			<tr>
+			<td> </td>
+			<td align="right"><input type="submit" value="submit"></td>
+			</tr>
+		</table>
+		</form>
+	</div>
+  </body>
+</html>

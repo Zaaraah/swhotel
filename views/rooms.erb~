@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Rooms</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+	<div class="header">
+		<div class="banner">
+			<h1 id="hotel">THE ROYAL COURT</h1>
+		</div>
+		<div class="navbar"><!--Modified from sample navbar.html uploaded in Moodle-->
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			</div>
+			<div class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+				<li><a href="main">Home</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href="rooms">Rooms</a></li>
+				<li><a href="reserve_form">Reserve</a></li>
+			</div>
+		  </div>
+		</div>
+	</div>
+	<div class="content">
+	<h3>Pick a Suit(e)!</h3>
+	<div class="container">
+      <div class="row">
+       <div class="col-md-2"><h3>CLOVER</h3>
+		<p>P1000 per night</p>
+		<p>Single bed</p>
+	   </div>
+       <div class="col-md-2"><h3>SPADES</h3>
+		<p>P2000 per night</p>
+		<p>2 single beds</p>
+		<p>Pool access</p>
+		</div>
+       <div class="col-md-2"><h3>HEARTS</h3>
+		<p>P3000 per night</p>
+		<p>Queen-size bed</p>
+		<p>Pool access</p>
+		<p>Buffet meals</p>
+		</div>
+	   <div class="col-md-2"><h3>DIAMONDS</h3>
+		<p>P1000 per night</p>
+		<p>King-size bed</p>
+		<p>Pool access</p>
+		<p>Buffet meals</p>
+		<p>Personal alalay</p>
+		</div>
+     </div>
+    </div>
+	
+	</div>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+class Room #constructor
+		attr_reader :name
+		attr_writer :name
+
+		def initialize(name)
+			@name=name
+		end
+
+		def say	my_name
+		"My name is #{name}"
+		end
+end
