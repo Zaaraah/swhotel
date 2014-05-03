@@ -1,12 +1,10 @@
 class Room #constructor
-		attr_reader :name
-		attr_writer :name
+		attr_reader :suite, :date
+		attr_writer :name, :date
 
-		def initialize(name)
-			@name=name
+		def initialize(suite, date)
+			@suite = suite
+			@date = date
 		end
 
-		def say	my_name
-		"My name is #{name}"
-		end
 end
